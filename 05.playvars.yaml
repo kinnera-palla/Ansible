@@ -7,6 +7,6 @@
     TRAINER: Kinn
 
   tasks:
-    - name: print course info
-      ansible.builtin.debug:
-       msg: "hello {{ COURSE }}, course duration {{ DURATION }}, Trainer is {{ Kinn }}"
+  - name: print course info
+    ansible.builtin.debug:
+     msg: "hello {{ COURSE }}, course duration {{ DURATION }}, Trainer is {{ Kinn }}"
