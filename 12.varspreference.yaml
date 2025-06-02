@@ -1,6 +1,6 @@
 - name: understand vars 
   hosts: local
-  coonection: local
+  connection: local
   vars:
     GREETING: "frllo from play"
   vars:
